@@ -26,7 +26,7 @@ class bob
 			translate(bobpos.x, bobpos.y);
 			ellipseMode(CENTER);
 			fill("red");
-			ellipse(0,0,this.r/2, this.r/2);
+			ellipse(0,0,this.r, this.r);
 			pop();
 			
 	}
