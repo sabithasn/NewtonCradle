@@ -30,20 +30,6 @@ function setup() {
 	bobObject4=new bob(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
 	bobObject5=new bob(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
 	
-	
-	//Create a Ground
-	
-
-	var render = Render.create({
-	  element: document.body,
-	  engine: engine,
-	  options: {
-	    width: 1200,
-	    height: 700,
-	    wireframes: false
-	  }
-	});
-
 	rope1=new Rope(bobObject1.body,roofObject.body,-bobDiameter*2, 0)
 
 	rope2=new Rope(bobObject2.body,roofObject.body,-bobDiameter*1, 0)
